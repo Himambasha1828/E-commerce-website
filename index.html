@@ -1,0 +1,274 @@
+<html>
+<head>
+<title>Restraunt</title>
+<link rel="stylesheet"href="styles.css">
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+  * {box-sizing: border-box;}
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b42626;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: rgb(250, 246, 246);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-container container">
+
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a href="#home">Home</a></li>
+            
+            <li><a href="#food">Category</a></li>
+            <li><a href="#food-menu">Menu</a></li>
+            <li><a href="#testimonials">Feedback</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <h1 class="logo">Pandu Food court</h1>
+    </div>
+</nav>
+  <section class="showcase-area" id="showcase">
+    <div class="showcase-container">
+      <h1 class="main-title" id="home">!Good Food_Good Mood!</h1>
+      <p>Taste the best Food,it is Good for our Health</p>
+      <a href="#food-menu" class="btn btn-primary">Menu</a>
+    </div>
+  </section>
+
+  <section id="food">
+    <h2>Types of food</h2>
+    <div class="food-container container">
+      <div class="food-type fruite">
+        <div class="img-container">
+          <img decoding="async" src="https://img.lovepik.com/photo/48014/8697.jpg_wh860.jpg" alt="error" />
+          <div class="img-content">
+            <h3>fruite</h3>
+            <a href="https://en.wikipedia.org/wiki/Fruit" class="btn btn-primary" target="blank" rel="noopener">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="food-type Breakfast">
+        <div class="img-container">
+          <img decoding="async" src="https://www.tataaia.com/content/dam/tataaialifeinsurancecompanylimited/blogs/health-and-lifestyle/healthy-breakfast-recipes-to-power-up-your-day/shutterstock_1153818808.jpg">
+          <div class="img-content">
+            <h3>Breakfast</h3>
+            <a href="https://en.wikipedia.org/wiki/Dosa_(food)" class="btn btn-primary" target="blank" rel="noopener">learn more</a>
+          </div>
+        </div>
+      </div>
+      <div class="food-type Lunch">
+        <div class="img-container">
+          <img decoding="async" src="https://5.imimg.com/data5/UF/FB/MY-47806025/lunch-and-dinner-500x500.jpg" alt="error" />
+          <div class="img-content">
+            <h3>Lunch</h3>
+            <a href="https://en.wikipedia.org/wiki/Lunch" class="btn btn-primary" target="blank" rel="noopener">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="food-menu">
+    <h2 class="food-menu-heading">Food Menu</h2>
+    <div class="food-menu-container container">
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img decoding="async" src="https://www.orangewayfarer.com/wp-content/uploads/2020/07/00100dPORTRAIT_00100_BURST20200706064238491_COVER-01.jpg" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Fish</h2>
+          <p>
+            Take a seat grab a Treat.
+          </p>
+          <p class="food-price">Price: &#8377; 250</p>
+        </div>
+      </div>
+
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img decoding="async" src="https://as1.ftcdn.net/jpg/04/67/56/16/1000_F_467561685_Wib1sZRZ4xjTz9ze6hxHbsSq4MFds3mp.jpg" alt="error" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Ragi Sangati</h2>
+          <p>
+            Take a seat grab a Treat.
+          </p>
+          <p class="food-price">Price: &#8377; 200</p>
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img decoding="async" src="https://static.toiimg.com/photo/63201465.cms" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Mutton </h2>
+          <p>
+            Take a seat grab a Treat.
+          </p>
+          <p class="food-price">Price: &#8377; 250</p>
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img decoding="async" src="https://images.unsplash.com/photo-1601050690597-df0568f70950?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Samosa</h2>
+          <p>
+            Take a seat grab a Treat.
+          </p>
+          <p class="food-price">Price: &#8377; 75</p>
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img decoding="async" src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=500&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGluZGlhbiUyMGZvb2R8ZW58MHx8MHx8fDA%3D" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Vada pav</h2>
+          <p>
+            Take a seat grab a Treat.
+          </p>
+          <p class="food-price">Price: &#8377; 200</p>
+        </div>
+      </div>
+      <div class="food-menu-item">
+        <div class="food-img">
+          <img decoding="async" src="https://static.wixstatic.com/media/91e241_c33ab20b159e4e7a98c560ac9538c86a~mv2.jpg/v1/fill/w_568,h_378,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/91e241_c33ab20b159e4e7a98c560ac9538c86a~mv2.jpg" alt="" />
+        </div>
+        <div class="food-description">
+          <h2 class="food-titile">Pulao biryani</h2>
+          <p>
+            Take a seat grab a Treat.
+          </p>
+          <p class="food-price">Price: &#8377; 250</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="testimonials">
+    <h2 class="testimonial-title">Customer's Feedback</h2>
+    <div class="testimonial-container container">
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl11MlxztTx_sncbPYoZGZuowTVSR2qwABduJzF0HIcenenDiu12Px5aHzokTVWEcJdwg&usqp=CAU" alt="" />
+            <p class="customer-name">Mahesh Babu</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          The food was delicious and fresh, and I felt great after eating here. This restaurant. commitment to healthy options is appreciated, and I'll definitely be back...
+        </p>
+
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://i.pinimg.com/736x/60/25/2b/60252b54de0eec7ec6e5209bc426f049.jpg" alt="" />
+            <p class="customer-name">Sai Pallavi</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          I am impressed by the variety of healthy Food's here, and everything I tried was delicious and very tasty...
+        </p>
+
+      </div>
+      <div class="testimonial-box">
+        <div class="customer-detail">
+          <div class="customer-photo">
+            <img decoding="async" src="https://i.ytimg.com/vi/9FXvLhouhjQ/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGBggXih_MA8=&rs=AOn4CLCYlqQ2JpyBgo_xUHvbIyGZoqed7Q" alt="" />
+            <p class="customer-name">Vijay</p>
+          </div>
+        </div>
+        <div class="star-rating">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+        </div>
+        <p class="testimonial-text">
+          I highly recommended this restaurant to anyone looking for a healthy and delicious meal...
+        </p>
+
+      </div>
+    </div>
+  </section>
+  <div class="form-container">
+ <h2>Contact Us</h2>
+    
+  <form action="/action_page.php">
+    <label for="fname">Your Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Phone Number</label>
+    <input type="text" id="number" name="number" placeholder="Your Phone number">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Andhrapradesh</option>
+      <option value="usa">Telangana</option>
+    </select>
+
+    <label for="subject">Feedback</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+        
+    
+  </section>
+
+
+
+  
+  <footer id="footer">
+    <h2>Restaurant &copy; all rights reserved</h2>
+    <script src="script.js"></script>
+  </footer>
+  </body>
+  </html>
